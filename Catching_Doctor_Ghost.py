@@ -221,7 +221,6 @@ def gameLoop(turns, player, dr_ghost):
         ghost_neighbors = check_neighbors(dr_ghost, unvisited)
         if ghost_neighbors is not None:
             syscmd('The Dr. is moving...')
-            print('')
             dr_ghost = ghosts_move(dr_ghost, ghost_neighbors)
             if player == dr_ghost:
                 syscmd('Breaking News! Dr. Ghost Captured at ' + str(dr_ghost)
