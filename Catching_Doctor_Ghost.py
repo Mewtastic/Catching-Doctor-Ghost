@@ -1,7 +1,6 @@
 from pygame import math as pg
 import random
 
-
 print('''\n
       Thanks for playing Catching Doctor Ghost!\n
       The Rules are as follows:\n
@@ -12,7 +11,6 @@ print('''\n
       If you run out of turns, Dr. Ghost Wins.''')
 
 GRID_SIZE = 26 # 0 - 25
-
 
 N = pg.Vector2(0,1)
 E = pg.Vector2(1,0)
