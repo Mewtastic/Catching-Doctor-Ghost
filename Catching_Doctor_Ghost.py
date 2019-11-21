@@ -39,9 +39,9 @@ print('Enter your difficulty level 1-3')
 
 level = input('level 1-3: ')
 
-if level is '1':
+if level == '1':
     turns = 50
-elif level is '2':
+elif level == '2':
     turns = 40
 else:
     turns = 30
