@@ -44,7 +44,7 @@ if level == '1':
 elif level == '2':
     turns = 40
 else:
-    turns = 30
+    turns = 35
 
 print('Total Turns in Game: ' + str(turns))
 
