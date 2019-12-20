@@ -9,7 +9,6 @@ def blockPrint():
 def enablePrint():
     sys.stdout = sys.__stdout__
 
-
 blockPrint()
 from pygame import math as pg
 enablePrint()
