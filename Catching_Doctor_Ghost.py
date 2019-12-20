@@ -1,5 +1,17 @@
+import sys, os, random
+
+# Disable print
+def blockPrint():
+    sys.stdout = open(os.devnull, 'w')
+
+# Enable print
+def enablePrint():
+    sys.stdout = sys.__stdout__
+
+
+blockPrint()
 from pygame import math as pg
-import random
+enablePrint()
 
 print('''\n
       Thanks for playing Catching Doctor Ghost!\n
