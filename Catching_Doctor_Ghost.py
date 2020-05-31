@@ -17,9 +17,10 @@ print('''\n
       Thanks for playing Catching Doctor Ghost!\n
       The Rules are as follows:\n
       Each turn you pick a direction to move in.\n
-      If you land on Dr. Ghost or he can't move, you Win.\n
-      You don't know Dr. Ghost's position until every 4 turns.\n
       You can only move within the 26*26 grid.\n
+      Dr. Ghost moves every 2 turns and never to the same space.\n
+      You don't know Dr. Ghost's position until every 4 turns.\n
+      If you land on Dr. Ghost or he can't move, you Win.\n
       If you run out of turns, Dr. Ghost Wins.''')
 
 GRID_SIZE = 26 # 0 - 25
